@@ -1,0 +1,39 @@
+/*.conteneur-image {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3px;
+    width: 4px;
+    position:center ;
+    
+    
+
+    position: absolute;
+    left:20%;
+    top: 10%;
+    width: 2px; 
+    height: 3px; 
+
+  }*/
+  .conteneur-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Pour aligner l'image en haut */
+    height: 200px; /* Remplacez cette valeur par la hauteur souhaitée */
+    width: 400px; /* Remplacez cette valeur par la largeur souhaitée */
+    margin: 0 auto; /* Pour centrer le conteneur horizontalement */
+    position: relative; /* Ajout d'une position relative pour le positionnement absolu de l'image */
+  }
+  
+  .image  {
+    max-width: 60%; /* Pour que l'image s'adapte à la largeur du conteneur */
+    max-height: 70%; /* Pour que l'image s'adapte à la hauteur du conteneur */
+    position: absolute;
+    top: 0; /* Pour positionner l'image en haut */
+    left: 50%; /* Pour la centrer horizontalement */
+    transform: translateX(-50%); /* Pour ajuster la position horizontale */
+  }
+  
+  
+  
+  

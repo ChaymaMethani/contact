@@ -1,0 +1,13 @@
+.content-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+   /* Ajustez la hauteur selon vos besoins */
+  }
+  
+  .image2 {
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas sa largeur d'origine */
+ } 
+  

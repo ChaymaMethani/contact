@@ -1,0 +1,22 @@
+body {
+  /*font-family: "Poppins", Arial, sans-serif;
+  
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: normal;
+  background: #fafafa;
+  color: lighten(#000, 40%);*/
+    margin: 0;
+    padding: 0;
+    background-image: url('https://live.staticflickr.com/8221/8293300187_73c2a28380_b.jpg');
+    background-position: center center;
+    background-attachment: fixed; 
+    background-size: cover; 
+    height: 100px;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
